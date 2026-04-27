@@ -1,0 +1,93 @@
+body {
+    
+     background:
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),url(images/pool.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav{
+    margin: 0;
+    background-color: rgb(31, 183, 210);
+    padding: 20px;
+    padding-left: 10%;
+    padding-right: 10%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a{
+    font-size: 30px;
+    padding: 20px;
+    margin: 0;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    animation: ease 5s;
+    
+}
+
+h1,h2,h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(187, 242, 252);
+}
+h2, h3 {
+    background-color: rgba(255, 255,255,0.1);
+    padding: 10px;
+}
+h1{
+    font-size: 50px;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+}
+
+img{
+    width: 70%;
+}
+
+li{
+    list-style:upper-roman;
+    justify-self: center;
+    font-size: 30px;
+    color: white;
+}
+table {
+    border-collapse: collapse;
+    justify-self: center;
+    background-color: white;
+    margin-bottom: 30px;
+    width: 50%;
+    border: 2px solid black;
+}
+td, th {
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+footer{
+    background-color: rgb(31, 183, 210);
+    margin: 0;
+    padding: 5px;
+}
